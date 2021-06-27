@@ -13,5 +13,6 @@ struct InstagramApp: App {
         WindowGroup {
             ContentView()
         }
+		.windowStyle(HiddenTitleBarWindowStyle())
     }
 }
